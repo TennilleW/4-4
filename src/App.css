@@ -1,5 +1,5 @@
 li {
-  display: inline;
+  display: inline-flex;
 }
 
 li {
@@ -7,17 +7,17 @@ li {
 }
 
 a {
-  display: block;
+  display: flex;
   padding: 8px;
-  background-color: #dddddd1c;
+  background-color: #444e4d1c;
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: disc;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(39, 19, 153);
 }
 
 li {
@@ -26,17 +26,14 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: rgb(249, 248, 255);
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
+  text-decoration: underline overline;
 }
 
 body {
-  background-color: lightblue;
+  background-color: rgb(30, 158, 201);
+  background-size: cover;
+  background-repeat: no-repeat;
 }

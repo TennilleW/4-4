@@ -2,13 +2,9 @@ li {
   display: inline;
 }
 li {
-  border-right: 1px solid #bbb;
+  border-right: 1px solid rgb(16, 184, 170);
 }
 
 li:last-child {
   border-right: none;
-}
-
-body {
-  background-color: lightblue;
 }

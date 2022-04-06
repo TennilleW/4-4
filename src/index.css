@@ -1,5 +1,15 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  background-image: url("https://images.indagare.com/wp-content/uploads/20211008115928/Carne-Mare-Read-McKendree.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+.background {
+  width: 100%;
+  position: absolute;
+  left: 50%;
 }
