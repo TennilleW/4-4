@@ -2,10 +2,13 @@ import React, { Component } from "react";
 import "./App.css";
 import Heading from "./Components/heading.js";
 
+
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      data: []
+    };
   }
 
   render() {
@@ -27,12 +30,8 @@ class App extends Component {
           </li>
 
           <li>
-            <a href="#about">About</a>
-          </li>
-        </ul>
-
-        <Heading />
-      </div>
+            </ul>
+        <Heading />  
     );
   }
 }
