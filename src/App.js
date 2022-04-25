@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./App.css";
 import Heading from "./Components/heading.js";
 
-
 class App extends Component {
   constructor(props) {
     super(props);
@@ -28,10 +27,8 @@ class App extends Component {
           <li>
             <a href="#contact">Contact</a>
           </li>
-
-          <li>
-            </ul>
-        <Heading />  
+        </ul>
+      </div>
     );
   }
 }
