@@ -7,6 +7,7 @@ import FlipCard from "./Components/flipcard.js";
     <div class="flip-card-front">
       <img src="Restaurant.jpg" alt="Avatar" style="width:300px;height:300px;">
     </div>
+    
     <div class="flip-card-back">
       <h1>John Doe</h1>
       <p>Architect & Engineer</p>
