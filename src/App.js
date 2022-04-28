@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import Heading from "./Components/heading.js";
-import Card from "./Components/Card.js";
+import FlipCard from "./Components/flipcard.js";
 
 class App extends Component {
   constructor(props) {
@@ -30,7 +30,7 @@ class App extends Component {
           </li>
         </ul>
         <Heading />
-        <Card data={restaurants} />
+        <FlipCard />
       </div>
     );
   }
