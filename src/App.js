@@ -31,6 +31,7 @@ class App extends Component {
         </ul>
         <Heading />
         <FlipCard />
+        <FlipCard />
       </div>
     );
   }

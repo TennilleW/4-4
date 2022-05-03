@@ -1,7 +1,7 @@
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -34,12 +34,16 @@
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
   background-color: #bbb;
-  color: black;
+  color: rgb(146, 58, 58);
+  background-image: url("https://media.timeout.com/images/103468323/image.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: rgb(163, 74, 33);
   color: white;
   transform: rotateY(180deg);
 }
