@@ -14,8 +14,8 @@ a {
 
 ul {
   list-style-type: disc;
-  margin: 0;
-  padding: 0;
+  margin: 10px 50px 20px 0;
+  padding: 1em;
   overflow: hidden;
   background-color: rgb(39, 19, 153);
 }
@@ -24,11 +24,11 @@ li {
   float: left;
 }
 li a:hover {
-  background-color: #111;
+  background-color: rgb(14, 47, 236);
 }
 li a {
   display: block;
-  color: rgb(249, 248, 255);
+  color: rgb(214, 186, 186);
   text-align: center;
   padding: 14px 16px;
   text-decoration: underline overline;
@@ -43,14 +43,41 @@ body {
 
 h1 {
   text-align: center;
-  color: rgb(26, 194, 180);
+  color: rgb(17, 228, 210);
   font-size: 70px;
-  text-shadow: 2px 2px 5px rgb(0, 17, 255);
+  text-shadow: 2px 2px 5px rgb(13, 27, 231);
+  font-family: "Abril Fatface", serif;
+}
+mark {
+  background-color: rgb(161, 194, 169);
+  color: black;
 }
 
 p {
   text-align-last: center;
-  color: rgb(0, 0, 0);
+  color: rgb(241, 236, 236);
   font-size: 30px;
   text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.column1 {
+  float: left;
+  width: 35%;
+  padding: 0 10px;
+}
+
+.column {
+  float: left;
+  width: 35%;
+  padding: 10px 50px 20px;
+}
+
+.column {
+  float: right;
+  width: 35%;
+  padding: 10px 50px 20px;
+}
+
+.row {
+  margin: 0 -5px;
 }

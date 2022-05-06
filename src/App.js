@@ -28,8 +28,13 @@ class App extends Component {
           <li>
             <a href="#contact">Contact</a>
           </li>
+          <li>
+            <a href="#Search">Search</a>
+          </li>
         </ul>
+
         <Heading />
+        <FlipCard />
         <FlipCard />
         <FlipCard />
       </div>

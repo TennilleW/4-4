@@ -4,7 +4,9 @@ import "./heading.css";
 function Heading() {
   return (
     <div classname="Heading">
-      <h1>NYC Best Restaurants Nearby</h1>
+      <h1>
+        <mark>NYC Best Restaurants Nearby</mark>
+      </h1>
       <p>
         This website will help you choose the best restaurant in New York City!
       </p>
