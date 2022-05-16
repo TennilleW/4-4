@@ -44,7 +44,7 @@ body {
 h1 {
   text-align: center;
   color: rgb(17, 228, 210);
-  font-size: 70px;
+  font-size: 40px;
   text-shadow: 2px 2px 5px rgb(13, 27, 231);
   font-family: "Abril Fatface", serif;
 }
@@ -67,7 +67,7 @@ p {
 }
 
 .column {
-  float: left;
+  float: right;
   width: 35%;
   padding: 10px 50px 20px;
 }
