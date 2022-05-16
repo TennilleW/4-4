@@ -32,8 +32,9 @@ class App extends Component {
             <a href="#Search">Search</a>
           </li>
         </ul>
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
         <Heading />
+        <FlipCard />
         <FlipCard />
         <FlipCard />
         <FlipCard />
