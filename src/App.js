@@ -10,6 +10,19 @@ class App extends Component {
       data: []
     };
   }
+  
+  componentDidMount = () => {
+    fetch(
+      "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$$app_token=hVzOumvwxi66CKCKyuyCQLvlE"
+    )
+    .then((responce) => responce.json())
+    .then((data) => {
+      this.setState({data:data});
+    })
+    .catch((e) => {
+      alert(e);
+    });
+  };
 
   render() {
     return (
