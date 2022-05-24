@@ -10,18 +10,18 @@ class App extends Component {
       data: []
     };
   }
-  
+
   componentDidMount = () => {
     fetch(
       "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$$app_token=hVzOumvwxi66CKCKyuyCQLvlE"
     )
-    .then((responce) => responce.json())
-    .then((data) => {
-      this.setState({data:data});
-    })
-    .catch((e) => {
-      alert(e);
-    });
+      .then((responce) => responce.json())
+      .then((data) => {
+        this.setState({ data: data });
+      })
+      .catch((e) => {
+        alert(e);
+      });
   };
 
   render() {
@@ -46,8 +46,8 @@ class App extends Component {
           </li>
         </ul>
         <Heading />
-        <FlipCard />
-        <FlipCard />
+        <FlipCard data={this.state.data[0]} />
+        <FlipCard data={this.state.data[1]} />
         <FlipCard />
         <FlipCard />
         <FlipCard />
